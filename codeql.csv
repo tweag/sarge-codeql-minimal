@@ -1,0 +1,2 @@
+Tool,Severity,Code,Description,Location,Line
+CodeQL,error,py/code-injection,Tainted data passed to sarge,app.py,17
