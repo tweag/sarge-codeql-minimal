@@ -1,0 +1,2 @@
+sarge==0.1.7.post1
+flask==3.1.1

@@ -1,0 +1,7 @@
+# Required for queries in sibling files to work
+name: smelc/sarge-queries
+version: 0.0.1
+extractor: python
+library: false
+dependencies:
+  codeql/python-queries: "*" # gives access to the standard library

@@ -1,0 +1,2 @@
+black==25.1.0
+sarif-tools==3.0.4
