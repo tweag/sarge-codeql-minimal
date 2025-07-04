@@ -1,0 +1,3 @@
+queries:
+  - uses: ./queries/Sarge.qls
+  - uses: python-security-and-quality
