@@ -7,6 +7,21 @@ a more complete version of this code can be found at [smelc/sarge-security-codeq
 You may also be interested in a variant of this repository that uses Java as the target programming language:
 [tweag/java-security-codeql](https://github.com/tweag/java-security-codeql).
 
+## Installing CodeQL
+
+Download the CodeQL archive from its [releases page](https://github.com/github/codeql-cli-binaries/releases)
+(this repository used codeql 2.20.0), and make sure the `codeql` binary is in your `PATH`. Then install
+CodeQL's standard library and this repository as follows:
+
+```shell
+mkdir codeql-tutorial
+cd codeql-tutorial
+git clone https://github.com/github/codeql
+git clone https://github.com/tweag/sarge-codeql-minimal
+# At this point the "codeql" and "sarge-codeql-minimal" folders are siblings
+cd sarge-codeql-minimal
+```
+
 ### Running CodeQL
 
 Create the CodeQL database as follows:
